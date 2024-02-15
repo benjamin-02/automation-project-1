@@ -14,6 +14,8 @@ This is a personal DevOps Project on AWS using following technologies:
 - Terraform v1.7.3
 - Terraform aws provider version "5.35.0"
 - AWS account
+- public private keys ind the main project directory: `ssh-keygen -q -b 4096 -t rsa -C 'kotys-terraform-ssh-key' -N '' -f "kotys-ssh-key"`   use the same key file name for the variable in terrafrom.tfvars
+
 
 
 

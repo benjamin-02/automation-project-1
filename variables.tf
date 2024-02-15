@@ -37,3 +37,15 @@ variable "grafana_port" {
 variable "web_app_port" {
   type = number
 }
+
+variable "ssh_keyfile_name" {
+  type = string
+}
+
+variable "instance_type" {
+  type = string
+}
+
+variable "aws_image_id" {
+  type = string
+}
